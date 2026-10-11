@@ -1,0 +1,35 @@
+.title {
+    text-align: center;
+}
+
+body {
+    margin: 16px;
+}
+
+#blog-posts-container {
+    display: flex;        
+    flex-wrap: wrap;      
+    gap: 16px;           
+    margin-top: 16px;
+}
+
+#blog-posts-container > div {
+    flex: 1 1 300px;      
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 16px;
+}
+
+#blog-posts-container h3 {
+    display: inline;
+    margin-right: 8px;
+}
+
+#blog-posts-container p {
+    margin: 16px 0;
+}
+
+#blog-posts-container button {
+    margin-right: 25px;
+}
